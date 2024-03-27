@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-import '../../widgets/objects/authField.dart';
-import '../../widgets/objects/primary_button.dart';
-import '../../widgets/objects/remeberCheckBox.dart';
-import '../../widgets/objects/socialButton.dart';
-import '../../widgets/utils/AppAssets.dart';
-import '../../widgets/utils/AppColor.dart';
+import '../../../Controller/widgets/objects/authField.dart';
+import '../../../Controller/widgets/objects/primary_button.dart';
+import '../../../Controller/widgets/objects/remeberCheckBox.dart';
+import '../../../Controller/widgets/objects/socialButton.dart';
+import '../../../Controller/widgets/utils/AppAssets.dart';
+import '../../../Controller/widgets/utils/AppColor.dart';
 
 class SignUpScreen extends StatefulWidget {
   const SignUpScreen({super.key});

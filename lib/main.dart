@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:http/http.dart' as http;
 import 'package:smart_delivery/route_map.dart';
 import 'package:smart_delivery/view/screens/auth/login_screen.dart';
+import 'package:smart_delivery/view/screens/auth/onboarding_screen.dart';
 import 'package:smart_delivery/view/screens/auth/signup_screeen.dart';
 
 import 'Theme/lightTheme.dart';
@@ -18,10 +19,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: lightMode,
-      initialRoute: '/login',
+      initialRoute: '/onboarding',
       routes: {
         '/login':(context)=>const LoginScreen(),
         '/signUp':(context)=>const SignUpScreen(),
+        // '/home':(context)=> const HomeScreen(),
+        '/onboarding':(context)=> OnboardingScreen(),
       },
     );
   }
