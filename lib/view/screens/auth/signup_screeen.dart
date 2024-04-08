@@ -133,6 +133,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                     Future.delayed(Duration(seconds:2 ),(){
                       setState(() {
                         isLoading = false;
+                        Navigator.pushNamed(context, '/home');
                         print("Sign Up Completed");
                       });
                     });

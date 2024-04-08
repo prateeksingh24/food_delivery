@@ -2,7 +2,13 @@
 class Assets {
   Assets._();
 
+  static const String assetsBg = 'assets/bg.png';
   static const String assetsLogo = 'assets/logo.png';
+  static const String foodCategoriesBurger = 'assets/foodCategories/burger.jpeg';
+  static const String foodCategoriesNoodle = 'assets/foodCategories/noodle.jpeg';
+  static const String foodCategoriesPizza = 'assets/foodCategories/pizza.jpeg';
+  static const String foodCategoriesSalad = 'assets/foodCategories/salad.jpeg';
+  static const String foodCategoriesThaal = 'assets/foodCategories/thaal.jpeg';
   static const String loginAssetsApple = 'assets/loginAssets/apple.svg';
   static const String loginAssetsDirectionLeft = 'assets/loginAssets/direction-left.svg';
   static const String loginAssetsDirectionRight = 'assets/loginAssets/direction-right.svg';

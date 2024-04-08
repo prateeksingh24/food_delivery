@@ -128,7 +128,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     Future.delayed(Duration(seconds:2 ),(){
                       setState(() {
                         isLoading = false;
-                        Navigator.pushNamed(context, '');
+                        Navigator.pushNamed(context, '/home');
                         print("Sign In Completed");
                       });
                     });

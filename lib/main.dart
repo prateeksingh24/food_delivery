@@ -2,9 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:http/http.dart' as http;
 import 'package:smart_delivery/route_map.dart';
+import 'package:smart_delivery/view/home.dart';
 import 'package:smart_delivery/view/screens/auth/login_screen.dart';
 import 'package:smart_delivery/view/screens/auth/onboarding_screen.dart';
 import 'package:smart_delivery/view/screens/auth/signup_screeen.dart';
+import 'package:smart_delivery/view/screens/home_screen.dart';
 
 import 'Theme/lightTheme.dart';
 
@@ -23,7 +25,9 @@ class MyApp extends StatelessWidget {
       routes: {
         '/login':(context)=>const LoginScreen(),
         '/signUp':(context)=>const SignUpScreen(),
-        // '/home':(context)=> const HomeScreen(),
+        '/routeMap':(context)=> const RouteMap(),
+        '/homeScreen':(context)=> HomeScreen(),
+        '/home':(context)=> const Home(),
         '/onboarding':(context)=> OnboardingScreen(),
       },
     );

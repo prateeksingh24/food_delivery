@@ -40,6 +40,9 @@ dependencies:
   tuple: ^2.0.2
   flutter_svg: ^2.0.9
   intro_screen_onboarding_flutter: ^1.0.0
+  banner_carousel: ^1.2.1
+  provider: ^6.1.2
+  salomon_bottom_bar: ^3.3.2
 
 dev_dependencies:
   flutter_test:
@@ -70,6 +73,7 @@ flutter:
     - assets/
     - assets/loginAssets/
     - assets/onboard/
+    - assets/foodCategories/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
